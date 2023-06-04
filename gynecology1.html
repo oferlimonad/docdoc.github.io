@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>Gynecology Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav class="top-menu">
+        <ul>
+            <li><a href="index.html">דף הבית</a></li>
+            <li><a href="obstetrics.html">מיילדות</a></li>
+            <li><a href="gynecology.html">גינקולוגיה</a></li>
+            <li><a href="fertility.html">פריון</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="left-column">
+            <h2>תבנית שנוצרה</h2>
+            <div id="templateResultContainer">
+                <textarea id="templateResult" rows="5" readonly></textarea>
+                <br>
+                <button id="copyButton">העתקה ללוח</button>
+            </div>
+        </div>
+        <div class="right-column">
+            <h2>ביקור ראשון בהריון</h2>
+            <form id="templateForm">
+                <h3>כללי</h3>
+                <label for="field1">
+                    <input type="checkbox" id="checkbox1">
+                     בת
+                    <input type="text" id="field1" size="2">
+                </label>
+
+                <label for="field2">
+                    <input type="checkbox" id="checkbox2">
+                    GPACS
+                    <input type="text" id="field2" size="8">
+                </label>
+
+                <label for="field3">
+                    <input type="checkbox" id="checkbox3">
+                    בשבוע
+                    <input type="text" id="field3" size="4">
+                </label>
+                
+                <label for="field4">
+                    <input type="checkbox" id="checkbox4">
+                    פנתה בשל
+                    <input type="text" id="field4" size="30">
+                </label>
+
+                <h3>רקע</h3>
+                <label>
+                    <input type="checkbox" id="checkbox5">
+                    בריאה בדר״כ
+                </label>
+
+                <label>
+                    <input type="checkbox" id="checkbox6">
+                    ללא ניתוחים
+                </label>
+
+                <label>
+                    <input type="checkbox" id="checkbox7">
+                   ללא רגישות
+                </label>
+
+                <label>
+                    <input type="checkbox" id="checkbox8">
+                   במשפחה אמ״ל
+                </label>
+                <h3>בדיקה</h3>
+
+                <label>
+                    <input type="checkbox" id="checkbox9">
+                  נינוחה ללא סימני מצוקה
+                </label>
+
+                <label>
+                    <input type="checkbox" id="checkbox10">
+                   בטן רכה ללא רגישות
+                </label>
+                <h3>המלצות</h3>
+
+                <label>
+                    <input type="checkbox" id="checkbox11">
+                  בכל מקרה של דימום/צירים/ירידת מים/הפחתה בתנועות עובר לפנות לבדיקה
+                </label>
+
+                <label>
+                    <input type="checkbox" id="checkbox12">
+                   ביקורת במיון יולדות בשבוע 40
+                </label>
+
+                <label>
+                    <input type="checkbox" id="checkbox13">
+                   מעקב תנועות עובר קפדני
+                </label>
+
+                <label>
+                    <input type="checkbox" id="checkbox14">
+                   במשפחה אמ״ל
+                </label>
+
+                <label>
+                    <input type="checkbox" id="checkbox15">
+                   במשפחה אמ״ל
+                </label>
+                <br>
+                <button type="submit">יצירת תבנית</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
